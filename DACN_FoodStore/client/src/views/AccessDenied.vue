@@ -5,6 +5,7 @@
     <div class="container">
         <img src="../assets/access-denied.png" alt="">
         <h4>Không thể truy cập vào trang !</h4>
+        <h4>Thuy Truc comment !</h4>
     </div>
 </template>
 <style scoped>

@@ -86,7 +86,7 @@ namespace FoodStore.Areas.Employee.Controllers
             return View(food);
         }
 
-        // Hiển thị form cập nhật sản phẩm
+        // Hiển thị form cập nhật 
         public async Task<IActionResult> Update(int id)
         {
             var food = await _foodRepository.GetByIdAsync(id);
